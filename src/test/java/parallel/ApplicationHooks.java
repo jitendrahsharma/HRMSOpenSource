@@ -24,7 +24,7 @@ public class ApplicationHooks {
 	Properties prop;
 	//private LoginPage loginPage = new LoginPage(DriverFactory.getDriver());
 	
-	@Before(value="@skip_scenario",order=0)
+@Before(value="@skip_scenario",order=0)
 	public void skip_scenario(Scenario scenario){
 		System.out.println("SKIPPED SCENARIO IS : "+ scenario.getName());
 		Assume.assumeTrue(false);

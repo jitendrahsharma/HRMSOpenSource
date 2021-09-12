@@ -1,4 +1,4 @@
-package parallel;
+package testrunners;
 
 import org.junit.runner.RunWith;
 import org.testng.annotations.DataProvider;

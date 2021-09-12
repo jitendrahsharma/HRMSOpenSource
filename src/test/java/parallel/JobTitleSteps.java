@@ -55,7 +55,7 @@ public class JobTitleSteps{
 
 	@When("upload the Job Specification")
 	public void upload_the_job_specification() {
-		jobTitlePage.selectJobSpecification("C:\\Users\\Jitendra\\workspace\\OrangeHRMS\\src\\test\\testData\\Automation Developer.PNG");
+		jobTitlePage.selectJobSpecification("C:\\Users\\Jitendra\\workspace\\HRMSOpenSource\\src\\test\\testData\\Automation Developer.PNG");
 	}
 
 	@When("Enter the Note {string}")

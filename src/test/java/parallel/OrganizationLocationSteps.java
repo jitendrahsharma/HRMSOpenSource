@@ -53,7 +53,7 @@ public class OrganizationLocationSteps {
 	public void add_the_location_data_from_given_sheet_name_and_rownumber(String sheetName, int rowNumber) throws InvalidFormatException, IOException{
 	    ExcelReader reader= new ExcelReader();
 	    List<Map<String,String>> testData =
-	    		reader.getData(".//src//test//testData//Locations.xlsx", sheetName);
+	    		reader.getData("C://Users//Jitendra//workspace//HRMSOpenSource//src//test//testData//Locations.xlsx", sheetName);
 	    String name = testData.get(rowNumber).get("Name");
 	    String country = testData.get(rowNumber).get("Country");
 	    String state = testData.get(rowNumber).get("State");
@@ -72,7 +72,7 @@ public class OrganizationLocationSteps {
 		organizationLocationPage.clickOnSaveAddLocationButton();
 	}
 
-	@Then("Location  should get added in the organization")
+	@Then("Location should get added in the organization")
 	public void location_should_get_added_in_the_organization() {
 		organizationLocationPage.verifyAddedLocation("New Healthcare HQ");
 	}
