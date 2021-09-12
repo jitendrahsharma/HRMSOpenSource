@@ -135,7 +135,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 					<target>${java.version}</target>
 				</configuration>
 			</plugin>
-		<!-- <plugin>
+		    <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>${maven.surefire.version}</version>
@@ -143,12 +143,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 				<includes>
 							<include>**/SerenityTestRunner.java</include>
 					</includes>
-                   <parallel>methods</parallel>
-                   <threadCount>4</threadCount>
-                  <useUnlimitedThreads>true</useUnlimitedThreads>
-                  <testFailureIgnore>true</testFailureIgnore>
                  </configuration>
-			</plugin> -->
+			</plugin>
 			
 			<plugin>
 			<groupId>net.serenity-bdd.maven.plugins</groupId>
