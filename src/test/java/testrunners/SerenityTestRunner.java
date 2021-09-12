@@ -10,7 +10,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 		plugin = {"pretty"},
 				monochrome = true,
 				glue = {"parallel"},
-				features = {"src/test/resources/parallel/UserPage.feature"}
+				features = {"src/test/resources/parallel"}
 		)
 public class SerenityTestRunner {
 

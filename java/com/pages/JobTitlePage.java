@@ -81,9 +81,9 @@ public class JobTitlePage{
      *  @since 02 July 2021
      * @description This Method used to select Job Specification
      */
-	public void selectJobSpecification(){
+	public void selectJobSpecification(String path){
 		WebElement uploadElement = driver.findElement(txtJobSpec);
-		uploadElement.sendKeys("C:\\Users\\jitendra.sharma\\workspace\\BDDDemoFramework\\src\\test\\testData\\Automation Developer.PNG");
+		uploadElement.sendKeys(path);
 	}
 	
 	/**

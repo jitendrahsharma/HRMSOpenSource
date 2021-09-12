@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Orangehrm Login Page feature" skipped="0" tests="3" time="41.93" timestamp="2021-09-11 06:21:43"><testcase name="Verify Login page title"/><testcase name="Verify forgot password link"/><testcase name="verify login with corrent credentials"/></testsuite>
